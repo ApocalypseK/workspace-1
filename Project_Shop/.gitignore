@@ -1,0 +1,13 @@
+/.idea
+/.settings
+/WebRoot/lucene
+/WebRoot/upload
+/WebRoot/WEB-INF/classes
+/out
+*.iml
+.classpath
+.mymetadata
+.project
+.springBeans
+.tern-project
+.tgitconfig
