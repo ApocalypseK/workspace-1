@@ -1,0 +1,18 @@
+1.shop基本功能 JavaWeb JSP  video 20
+
+2.留言板基本功能 JavaWeb JSP  video 33
+
+3.契约优先开发用户管理小功能 webservice video 24
+
+4.网站主页：video：JavaScript,html,css,JQueryUI
+
+5.公文管理小项目
+
+6.shop小项目：mvc和依赖注入
+
+7.全文检索：Lucene
+
+8.CMS
+
+9.组织机构，权限模型设计
+
