@@ -1,0 +1,10 @@
+[DEFAULT]
+BASEURL=https://s.taobao.com/search?q=unity3d&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.50862.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20160721
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,11
+[InternetShortcut]
+IDList=
+URL=https://s.taobao.com/search?q=unity3d&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.50862.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20160721
+IconFile=https://s.taobao.com/favicon.ico
+IconIndex=1
+SyncId=F70DB199-10EE-6E48-94D0-42EC614158AE

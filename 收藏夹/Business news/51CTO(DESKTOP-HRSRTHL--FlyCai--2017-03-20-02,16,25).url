@@ -1,0 +1,10 @@
+[DEFAULT]
+BASEURL=http://www.51cto.com/
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[InternetShortcut]
+IDList=
+URL=http://www.51cto.com/
+IconFile=http://www.51cto.com/favicon.ico
+IconIndex=1
+SyncId=596B16D1-B231-0F48-8B1C-C1D6D402967C

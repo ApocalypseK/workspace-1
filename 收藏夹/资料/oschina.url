@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=https://git.oschina.net/
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,11
+[InternetShortcut]
+IDList=
+URL=https://git.oschina.net/
+IconFile=https://git.oschina.net/assets/favicon-f6562a1bc6a110e32367f6e0cab4ba89.ico
+IconIndex=1

@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=http://localhost:8080/admin/login.do;jsessionid=6066BF3C9944AB43E262B467B472B78E
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[InternetShortcut]
+IDList=
+URL=http://localhost:8080/admin/login.do;jsessionid=6066BF3C9944AB43E262B467B472B78E
+IconFile=http://localhost:8080/favicon.ico
+IconIndex=1
