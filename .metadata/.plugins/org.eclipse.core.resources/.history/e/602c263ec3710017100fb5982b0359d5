@@ -1,0 +1,6 @@
+HTML页面有三种使用CSS样式表的方式：
+1.内联样式：直接在元素内声明:style="..."
+
+2.内部样式: 在head中<style></style>方式声明
+
+3.外部样式: 引入外部CSS文件 <link rel=“stylesheet” href="my.css">

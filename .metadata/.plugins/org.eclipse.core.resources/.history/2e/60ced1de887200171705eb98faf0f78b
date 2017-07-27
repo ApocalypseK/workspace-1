@@ -1,0 +1,44 @@
+package shootday03;
+import java.util.Random;
+/**
+ * @author Fly Cai / Jun 12, 2017 11:43:15 PM / GuiYang Tarena
+ * 敌机：是飞行物
+ *
+ */
+public class Airplane extends FlyingObject implements Enemy {
+	private int speed=2;//移动速度，只需y坐标移动（往下掉）
+	
+	//初始化成员变量
+	    public Airplane(){
+		Random rand=new Random();
+		
+		image=ShootGame.airplane;
+		width=image.getWidth();
+		height=image.getHeight();
+		x=rand.nextInt(ShootGame.WIDTH-this.width);
+		y=-this.height;//负的敌机的高（因为敌机初始化时不窗口顶部，所以不用考虑窗口的高度）
+	}
+	
+	/**
+	 * 重写getScore()
+	 */
+	
+	public int getScore(){
+		return 5;//打掉一个敌机得5分
+	}
+	
+	/**
+	 * 重写step()
+	 */
+	public void step(){
+		y+=speed;//向下移动
+	}
+	
+	/**
+	 * 重写outOfBounds
+	 */
+	public boolean outOfBounds(){
+		return this.y>=ShootGame.HEIGHT;//敌机的y>=窗口高就算越界
+	}
+	
+}

@@ -1,0 +1,5 @@
+/*定义外部样式表*/
+p{
+	background-color:silver;
+	font-family:"微软雅黑","文泉驿正黑","黑体"
+}

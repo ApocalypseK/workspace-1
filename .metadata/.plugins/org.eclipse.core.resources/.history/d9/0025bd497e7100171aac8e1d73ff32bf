@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS选择器</title>
+<style>
+	/*1.继承性：在父元素上书写的样式，子元素可以继承（颜色，字体，字号）*/
+	body{
+		font-family:
+	}
+</style>
+</head>
+<body>
+	<h1>苍老师</h1>
+	<h2>范传奇</h2>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>开发一个表单</title>
+</head>
+<body>
+	<form action="http://www.baidu.com">
+	<p>
+		账号:<input type="text"/>
+	</p>
+	<p>
+		密码:<input type="password"/>
+	</p>
+	<p>
+		性别:<input type="radio" value="sex" checked/>
+	</p>
+	
+	</form>
+</body>
+</html>

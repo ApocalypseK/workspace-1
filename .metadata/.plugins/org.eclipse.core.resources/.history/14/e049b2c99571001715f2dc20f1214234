@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS设置边框</title>
+<style>
+/*1.四个边设置相同的边框*/
+p {
+	border: 1px dashed red;
+}
+/*2.单个边设置边框*/
+h1 {
+	border-left: 10px solid blue;
+}
+/*元素的高度默认会自适应，不会溢出，只有固定了高度的时候，才可能造成溢出*/
+
+
+</style>
+
+</head>
+<body>
+	<h1>苍老师</h1>
+	<p>原名刘苍松,系达内教学总监,是Java教学的先驱，同时他也是一名摄影爱好者，他拍的片都很么么哒！他最擅长捕捉肉
+		肉体和灵魂的契合点，能够折射出对人性的思考与鞭挞！</p>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>文本格式化</title>
+<style>
+	h1,p{
+		width:300px;
+		border:1px solid red;
+	}
+
+</style>
+</head>
+<body>
+	<h1>范传奇</h1>
+	<p>
+		华灯轻抚蚕丝被，<br>
+		锦墙呢喃诉床帷.<br>
+		情郎翘首索芳心，<br>
+		佳人回眸送秋水.<br>
+		丹心不畏相思苦，<br>
+		浓情何惧岁月催.<br>
+		万水千山终有路，<br>
+		几度良宵几轮回.
+	</p>
+</body>
+</html>

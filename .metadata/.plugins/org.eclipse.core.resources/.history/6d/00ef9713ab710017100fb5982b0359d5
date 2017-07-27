@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>边框，边距</title>
+<style>
+	div{
+		width:200px;
+		height:300px;
+		
+		
+	}
+</style>
+
+</head>
+<body>
+	<div>div01</div>
+	<div>div02</div>
+	<div>div03</div>
+	<div>div04</div>
+	<div>div05</div>
+	<div>div06</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+/*定义外部样式表*/
+p{
+	background-color:silver;
+}

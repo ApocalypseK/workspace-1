@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>管理员列表</title>
+<link rel="stylesheet" href="list.css" />
+</head>
+<body>
+
+	<!-- logo区 -->
+	
+	<div class="logo">
+	<a href="#">[退出]</a>
+	</div>
+	
+	<!-- 菜单区 -->
+	<div class="menu"></div>
+
+	<!-- 核心区 -->
+	<div class="core">
+	<!-- 1.顶部有渐变条 -->
+	<!-- 2.下方有内容区 -->
+		<div class="content">
+			<!-- 按扭区 -->
+			<div class="btn"></div>
+			<!-- 数据区 -->
+			<div class="data">
+				<table>
+					<thead>
+						<tr>
+							<td><input type="checkbox"/>全选</td>
+							<td>管理员ID</td>
+							<td>姓名</td>
+							<td>拥有角色</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr></tr>
+						<tr></tr>
+						<tr></tr>
+						<tr></tr>
+						<tr></tr>
+					</tbody>
+				</table>
+			</div>
+			<!-- 分页区 -->
+			<div class="page"></div>
+		</div>
+	</div>
+
+	<!-- 版权区 -->
+	<div class="copy">
+		<p>&copy; 版权所有，盗版必究</p>
+		<p>友情链接:<a href="http://www.baidu.com">www.baidu.com</a></p>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

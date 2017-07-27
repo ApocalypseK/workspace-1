@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>左右浮动定位</title>
+<style>
+	di{
+		
+	}
+</style>
+
+</head>
+<body>
+	<div id="d0">
+		<div id="d1"></div>
+		<div id="d2"></div>
+		<div id="d3"></div>
+	</div>
+	<p>浮动时看看我的位置</p>
+	
+
+</body>
+</html>

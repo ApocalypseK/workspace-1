@@ -1,0 +1,133 @@
+/*0.对网页样式做出统一的处理,注：元素的边框，边距不能继承*/
+
+/*星是通用选择器，可以选中一切元素*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*1.对页面进行布局，设置每个区域的尺寸和位置*/
+div{
+	border:1px solid red;
+	margin:0 auto;
+}
+
+.logo{
+	width:960px;
+	height:61px;
+}
+
+/*宽100%可以不用设置，默认就是*/
+.menu{
+	height:91px;
+	width:100%;
+}
+
+.core{
+	height:410px;
+	/*预留出渐变条空间*/
+	padding-top:10px;
+}
+
+.copy{
+	width:960px;
+	height:50px;
+}
+
+.content{
+	width:950px;
+	height:390px;
+	border:5px solid #8ac1db;
+}
+
+.content>div{
+	width:910px;
+	height:40px;
+}
+
+.content>.data{
+	height:310px;
+}
+
+/*2.给各个区域设置背景*/
+body{
+	background-color:#0ea8d8;	
+}
+
+.logo{
+	background-image:url(../doc/img/top_bg.png);
+}
+
+.menu{
+	background-color:#0488bb;
+}
+
+.core{
+	
+	background:url(../doc/img/content_bg.png) repeat-x top;
+}
+
+.content{
+	background-color:#e8f3f8;
+}
+
+
+/* 3.设置文本样式 */
+body{
+	font-family:"微软雅黑","文泉驿正黑","黑体";	
+	font-size:14px;
+}
+
+.logo{
+	text-align:right;
+	line-height:61px;
+}
+
+
+.logo>a{
+	margin-right:40px;
+	color:#fff;
+	text-decoration:none;	
+}
+
+.logo>a:hover{
+	font-weight:bold;
+}
+
+.copy>p{
+	text-align:center;
+	color:#fff;
+	height:25px;
+	line-height:25px;
+}
+
+/*4.设置数据区表格的样式*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

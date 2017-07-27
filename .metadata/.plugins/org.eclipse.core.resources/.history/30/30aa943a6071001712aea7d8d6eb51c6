@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="DMS_DAY02_PART3">
+        <property name="context-root" value="DMS_DAY02_PART3"/>
+        <property name="java-output-path" value="/DMS_DAY02_PART3/target/classes"/>
+    </wb-module>
+</project-modules>

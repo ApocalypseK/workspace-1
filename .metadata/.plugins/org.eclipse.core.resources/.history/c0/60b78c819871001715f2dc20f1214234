@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>边距，边框</title>
+</head>
+<body>
+	<div>d1</div>
+	<div>d2</div>
+	<div>d3</div>
+	<div>d4</div>
+	<div>d5</div>
+	<div>d6</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS层叠样式菜单</title>
+<!-- 2.内部样式：在head内部的style标签里写样式，这些样式可以在当前网页的从多标签间复用 -->
+<style>
+/*CSS注释*/
+</style>
+
+</head>
+
+<body>
+
+	<!-- 1.内联样式:直接在元素的style属性内书写样式，这些样式只对该元素有效，无法复用 -->
+	<h1 style="color: red;">CSS</h1>
+	<h2>使用方式</h2>
+	<p>1.内联样式</p>
+	<p>2.内部样式</p>
+	<p>3.外部样式</p>
+
+</body>
+</html>

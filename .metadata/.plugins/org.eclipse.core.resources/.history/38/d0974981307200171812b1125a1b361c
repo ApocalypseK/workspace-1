@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>设置网页背景</title>
+
+<style>
+	/* 1.设置背景图 */
+	body{
+		background-image:url(../doc/images/background.png);
+		background-repeat:repeat-y;
+		background-position:center;
+		
+	}
+	
+	div{
+		width:125px;
+		height:125px;
+		border:1px solid red;
+	}
+</style>
+</head>
+<body>
+	<div class="enemy"></div>
+	<div class="enemy"></div>
+	<div class="enemy"></div>
+	<div class="enemy"></div>
+	<div class="enemy"></div>
+	<div class="enemy"></div>
+	<div class="enemy"></div>
+	<div class="enemy"></div>
+	<div class="enemy"></div>
+	<div class="enemy"></div>
+	<div class="enemy"></div>
+	<div class="enemy"></div>
+	<div class="hero"></div>
+	<div class="hero"></div>
+	
+		
+</body>
+</html>

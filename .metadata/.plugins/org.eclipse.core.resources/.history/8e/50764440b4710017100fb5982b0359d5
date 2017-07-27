@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS规则特性</title>
+<style>
+	/* 继承性 */
+	body{
+		font-family:'微软雅黑','文泉驿正黑';
+	}
+</stylle>
+</head>
+<body>
+	<h1>AAA</h1>
+	<P>BBB</P>
+</body>
+</html>

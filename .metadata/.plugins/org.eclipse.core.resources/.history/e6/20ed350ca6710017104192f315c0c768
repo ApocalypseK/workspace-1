@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>开发一个表单</title>
+</head>
+<body>
+	<form action="http://www.baidu.com">
+	<p>
+		账号:<input type="text"/>
+		
+	</p>
+	
+	</form>
+</body>
+</html>

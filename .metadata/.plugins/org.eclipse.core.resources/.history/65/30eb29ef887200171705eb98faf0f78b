@@ -1,0 +1,64 @@
+package shootday03;
+import java.awt.image.BufferedImage;
+/**
+ * @author Fly Cai / Jun 12, 2017 11:22:55 PM / GuiYang Tarena
+ * 飞物类，含所有子类所共有的东西
+ *  image,width,height,x,y
+ *
+ */
+public abstract class FlyingObject {
+	protected BufferedImage image;
+	protected int width;
+	protected int height;
+	protected int x;
+	protected int y;
+	
+	/** 飞行物走一步 */
+	public abstract void step();
+	
+	/** 检查是否越界 */
+	public abstract boolean outOfBounds();
+	
+	/**
+	 * 检测敌人（敌机+蜜蜂）是否被子弹击中，this:敌人
+	 */
+	public boolean shootBy(Bullet bullet){
+		int x1=this.x;//敌人的x
+		int x2=this.x+this.width;//敌人的x+敌人的宽
+		int y1=this.y;//y1:敌人的y
+		int y2=this.y+this.height;//敌人的y+敌人的高
+		int x=bullet.x;//x:子弹的x
+		int y=bullet.y;//y:子弹的y
+		/**
+		 * x在x1,x2之间,y在y1,y2之间
+		 */
+		return x>=x1 && x<=x2 && y>=y1 && y<=y2;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

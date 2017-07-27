@@ -1,0 +1,13 @@
+package Airplane;
+/**
+ * @author Fly Cai / Jun 12, 2017 11:36:40 PM / GuiYang Tarena
+ * 敌人
+ *
+ */
+public interface Enemy {
+	/**
+	 * 得分
+	 * @return
+	 */
+	public int getScore();
+}

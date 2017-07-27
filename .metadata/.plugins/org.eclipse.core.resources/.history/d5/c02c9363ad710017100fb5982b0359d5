@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>标题，列表，段落，超链接，图片，表格</title>
+</head>
+<body>
+	<!-- 1.标题 -->
+	<h1>苍老师</h1>
+	<h2>范传奇</h2>
+	<h3>王克晶</h3>
+	<!-- 2.段落 -->
+	<p>范传奇暗恋王克晶</p>
+	<p><a href="#cang">苍老师</a>吃醋</p>
+	<!-- 3.列表 -->
+	<!-- 有序列表 -->
+	<ol>
+		<li>河北省</li>
+		<li>山西省</li>
+		<li>陕西省</li>
+	</ol>
+	<!-- 无序列表 -->
+	<ul>
+		<li>北京</li>
+		<li>上海</li>
+		<li>广州</li>
+	</ul>
+	<!-- 嵌套列表 -->
+	<ol>
+		<li>
+			河北省
+			<ul>
+				<li>石家庄</li>
+				<li>保定</li>
+				<li>廊坊</li>
+			</ul>
+		</li>
+		<li>
+			山东省
+			<ul>
+				<li>济南</li>
+				<li>青岛</li>
+				<li>烟台</li>
+			</ul>
+		</li>
+	</ol>
+	<!-- 4.行内元素 -->
+	<p>
+		北京市<i>海淀</i>区北<b>三环</b>西路<u>甲18</u>号<span style="color:red;">中鼎大厦</span>B座8层
+	</p>
+	<!-- 空格折叠 -->
+	<p>
+		那是一个&nbsp;&nbsp;&nbsp;秋天,<br>
+		看着传奇&nbsp;&nbsp;&nbsp;跑偏.<br>
+		奔着克晶&nbsp;&nbsp;&nbsp;而去,<br>
+		误入老苍&nbsp;&nbsp;&nbsp;心间.<br>
+	</p>
+	<!-- 5.图片 -->
+	<!-- 5.1绝对路径:
+		写出图片存放位置的完整路径.
+		这种方式将路径写死了,一旦软件上线时,
+		需要修改项目存放的位置甚至操作系统,
+		则所有图片路径就都错了. -->
+	<!-- 5.2相对路径:
+		写出图片和网页的相对位置即可.
+		软件上线时,无论项目存放在哪里,
+		图片和网页的相对关系不会变. -->
+	<p>
+		<!-- 图片和网页平级 -->
+		<img src="01.jpg"/>
+		<!-- 图片在网页下级 -->
+		<img src="i/02.jpg"/>
+		<!-- 图片在网页上级 -->
+		<img src="../03.jpg"/>
+		<!-- 一般这样用 -->
+		<img src="../images/04.jpg"/>
+	</p>
+	<!-- 6.超链接 -->
+	<!-- 基本用法 -->
+	<p>
+		<a href="http://www.tmooc.cn">达内</a>
+		<a href="http://doc.tedu.cn" target="_blank">文档</a>
+	</p>
+	<!-- 锚点 -->
+	<p>
+		<a name="cang">麻里</a>麻里吽,我叫刘苍松.苍老师的苍,苍老师的松.
+	</p>
+	<!-- 顶部默认是锚点,没有名字 -->
+	<p>
+		<a href="#">顶部</a>
+	</p>
+	<!-- 7.表格 -->
+	<!-- 基本用法 -->
+	<table border="1" cellspacing="0" width="200px">
+		<tr>
+			<td align="center">苍老师</td>
+			<td align="center">范传奇</td>
+		</tr>
+		<tr>
+			<td align="center">王克晶</td>
+			<td align="center">程祖红</td>
+		</tr>
+	</table>
+	<!-- 跨列 -->
+	<table border="1" cellspacing="0" width="200px">
+		<tr>
+			<td align="center" colspan="2">苍老师</td>
+			<!-- <td align="center">范传奇</td> -->
+		</tr>
+		<tr>
+			<td align="center">王克晶</td>
+			<td align="center">程祖红</td>
+		</tr>
+	</table>
+	<!-- 跨行 -->
+	<table border="1" cellspacing="0" width="200px">
+		<tr>
+			<td align="center" rowspan="2">苍老师</td>
+			<td align="center">范传奇</td>
+		</tr>
+		<tr>
+			<!-- <td align="center">王克晶</td> -->
+			<td align="center">程祖红</td>
+		</tr>
+	</table>
+	<!-- 行分组 -->
+	<table border="1" cellspacing="0" width="300px">
+		<thead>
+			<tr>
+				<td>编号</td>
+				<td>名称</td>
+				<td>金额</td>
+			</tr>
+		</thead>
+		<tbody style="color:blue;">
+			<tr>
+				<td>1</td>
+				<td>鼠标</td>
+				<td>100</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>键盘</td>
+				<td>200</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="2">合计</td>
+				<td>300</td>
+			</tr>
+		</tfoot>
+	</table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

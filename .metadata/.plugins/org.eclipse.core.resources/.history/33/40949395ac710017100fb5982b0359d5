@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS选择器</title>
+<style>
+	/*1.元素选择器*/
+	/*2.类选择器：选择class=某值的所有元素*/
+	.female{
+		color:pink;
+	}
+	/*3.ID选择器：选择id=某值的唯一元素*/
+	#p4{
+		color:red;
+	}
+	/*4.选择器组:写出一组选择器，可以选中每个选择器所对应的目标的并集*/
+	.famale,#p4{
+		font-weight:bold;
+	}	
+	/*5.派生选择器
+	1.选择某元素的子孙*/
+	#p5 b{
+		color:red;
+	}
+	/*2.选择某元素的儿子*/
+	#p5 strong{
+		font-size:30px;
+	}
+	
+	/*6.伪类选择器:选择某状态之下的元素*/
+	/*1.选择访问过/未访问过的超链接*/
+	a:link {
+		color:green;
+	}
+	
+	a:visited{
+		color:red;
+	}
+	/*2.选择激活态（正在点）的按钮*/
+	#btn:active{
+		background-color:green;
+	}
+	/*3.选择有焦点(光标闪烁)的框*/
+	#txt:focus{
+		background-color:yellow;
+	}
+	
+	/*4.选择悬停态的图片*/
+	img:hover{
+		width:250px;
+		height:250px;
+	}
+</style>
+
+</head>
+<body>
+	<p class="female">苍老呀苍老师</p>
+	<p>范传奇呀范传奇</p>
+	<p class="female">王克晶呀王克呀</p>
+	<p id="p4">瞧你们那点破事</p>
+	<p id="p5"><b>北京市</b><strong>海淀区</strong>北三环西路</p>
+	
+	<a href="http://www.tmooc.cn">达内</a>
+	<a href="http://doc.tedu.cn">文档</a>
+	<a href="http://www.xb.com">瞎编</a>
+	<a href="http://www.sb.com">随便</a>
+	
+	<p>
+		<input type="button" value="试试"  id="btn"/>
+	</p>
+	
+	<p>
+		<input type="text" id="txt"/>
+	</p>
+	
+	<p>
+		<img src="../doc/images/01.jpg""/>
+		<img src="../doc/images/02.jpg""/>
+		<img src="../doc/images/03.jpg""/>
+	</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

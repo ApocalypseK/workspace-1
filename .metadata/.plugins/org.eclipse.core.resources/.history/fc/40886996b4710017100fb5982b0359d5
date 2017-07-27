@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS规则特性</title>
+<style type="text/css">
+	/* 继承性 */
+	body{
+		font-family:'微软雅黑','文泉驿正黑';
+	}
+	
+	/* 层叠性 */
+	h1{
+		color:red;
+	}
+	h1{
+		background-color:silver;
+	}
+	
+	/* 优先级 */
+	p{
+		color:red;
+	}
+	
+</style>
+</head>
+<body>
+	<h1>AAA</h1>
+	<P>BBB</P>
+</body>
+</html>

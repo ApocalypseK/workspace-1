@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>选择器的使用</title>
+<style>
+	body{
+		font-family:"微软雅黑","文泉驿正黑","黑体"
+	}
+	
+	#p2{
+		color:blue;
+	}
+</style>
+
+</head>
+<body>
+<P style="color:green;">80x86汇编指令，宏汇编，win32汇编</P>
+<p id="p2">C/C++</p>
+<p>Java语言</p>
+<p>sql语句</p>
+
+</body>
+</html>

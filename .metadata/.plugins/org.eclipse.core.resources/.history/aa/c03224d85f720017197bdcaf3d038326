@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>左右浮动定位</title>
+</head>
+<body>
+	<div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+	<p>浮动时看看我的位置</p>
+	
+
+</body>
+</html>

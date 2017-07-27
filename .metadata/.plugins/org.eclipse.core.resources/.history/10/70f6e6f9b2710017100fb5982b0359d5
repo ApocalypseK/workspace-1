@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS使用示例</title>
+<!-- 定义内部样式表 -->
+<style>
+	h2{
+		color:red;
+	}
+</style>
+
+<!-- 引用外部样式表 -->
+<link ref="stylesheet" href="c1.css"/>
+
+</head>
+<body>
+	
+	<!-- 内联方式 -->
+	<h1 style="color:bule;">CSS的使用</h1>
+	<!-- 内部样式 -->
+	<h2>CSS有3种用法</h2>
+	<!-- 外部样式 -->
+	<p>1.内联方式</p>
+	<p>2.内部样式</p>
+	<p>3.外部样式</p>
+		
+</body>
+</html>

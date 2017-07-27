@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>分区元素：div</title>
+</head>
+<body>
+	<!-- logo区 -->
+	<div>
+		<p>只处应放一张图片</p>
+	</div>
+	<!-- 内容区 -->
+	<div>
+		<h1>宫保鸡丁</h1>
+		<p>首先放油，加热至7成</p>
+		<p>然后放入鸡丁爆炒</p>
+		<p>再放入.....</p>
+	</div>
+	<!-- 版权 -->
+	<div>
+		<p>版权所有，盗版必究</p>
+	</div>
+</body>
+</html>

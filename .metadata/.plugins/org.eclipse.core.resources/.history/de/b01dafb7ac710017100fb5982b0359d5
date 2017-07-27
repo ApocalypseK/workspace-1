@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>有序列表，无序列表</title>
+</head>
+<body>
+	<!-- 标题 -->
+	<h1>王克晶</h1>
+	<h2>范传奇</h2>
+	<h3>苍老师</h3>
+	
+	<p><a href="#chang">苍老师吃醋</a></p>
+
+	<!-- 有序列表 -->
+	<ol>
+		<li>河北省</li>
+		<li>范老师</li>
+		<li>陕西省</li>
+	</ol>
+
+	<!-- 无序列表 -->
+	<ul>
+		<li>北京</li>
+		<li>上海</li>
+		<li>广州</li>
+	</ul>
+
+	<!-- 嵌套列表 -->
+	<ol>
+		<li>河北省
+			<ul>
+				<li>廊坊市</li>
+				<li>石家庄</li>
+				<li>保定</li>
+			</ul>
+		</li>
+		<li>山东省
+			<ul>
+				<li>济南</li>
+				<li>青岛</li>
+				<li>烟台</li>
+			</ul>
+		</li>
+	</ol>
+	
+	<!-- 行内元素 -->
+	<p>
+		北京市<li>海淀</li>区北<b>三环</b>西路<u>甲18</u>号<span style="color:red;">中鼎大厦</span>B座7层
+		
+	</p >
+	
+	<p>
+		<a href="http://www.baidu.com">百度</a>	
+	</p>
+	
+	
+	<!-- 锚点 -->
+	<p>
+		<a name="chang">麻里</a>麻里弘,我叫刘苍松
+	</p>	
+	<!-- 顶部默认是锚点，没有名字 -->
+	<p>
+		<a href="">顶部</a>
+	</p>
+	
+	
+	<!-- 7 表格-->
+	<!-- 基本用法 -->
+	<table border="1" cellspacing="0" width="200px">
+		<tr>
+			<td align="center">苍老师</td>
+			<td align="center">范传奇</td>
+		</tr>
+			<td align="center">王克晶</td>
+			<td align="center">程祖红</td>
+		<tr>
+		</tr>
+	</table>
+	
+	<!-- 跨列-->
+	<table border="1" cellspacing="0" width="200px">
+		<tr>
+			<td align="center" colspan="2">苍老师</td>
+			<td align="center">范传奇</td>
+		</tr>
+			<td align="center">王克晶</td>
+			<td align="center" rowspan="2">程祖红</td>
+		<tr>
+		</tr>
+	</table>
+	
+	<!-- 行分组 -->
+	<table border="1" cellspacing="0" width="300px">
+		<thead>
+			<tr>
+				<td>编号</td>
+				<td>名称</td>
+				<td>金额</td>
+			</tr>
+		</thead>
+		<tbody style="color:blue;">
+			<tr>
+				<td>001</td>
+				<td>鼠标</td>
+				<td>100</td>
+			</tr>
+			<tr>
+				<td>002</td>
+				<td>键盘</td>
+				<td>200</td>
+			</tr>
+		</tbody>
+		
+		<tfoot>
+			<tr>
+				<td colspan="2">合计</td>
+				<td>300</td>
+			</tr>
+		</tfoot>
+	</table>
+	
+	
+	
+	
+</body>
+</html>
