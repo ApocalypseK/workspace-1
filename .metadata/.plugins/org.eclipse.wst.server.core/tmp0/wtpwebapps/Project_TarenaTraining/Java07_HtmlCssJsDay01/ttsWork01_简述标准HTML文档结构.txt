@@ -1,0 +1,14 @@
+参考答案：
+
+HTML 文档的开始需要版本声明，剩下的页面内容需要包含在开始标记<html>和结束标记</html>之间。
+在<html>元素中，包含两个主要的部分，文件头部分（<head>元素）和主体部分（<body>元素）。
+标准HTML文档的结构如下所示：
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body>
+</body>
+</html>
+
