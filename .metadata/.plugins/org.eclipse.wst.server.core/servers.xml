@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/ClassCaseTest-config" deployDir="wtpwebapps" hostname="localhost" id="ClassCaseTest" name="ClassCaseTest" runtime-id="Test" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="3">
+    <list key="modules" value0="Project_TarenaTraining::org.eclipse.jst.jee.server:Project_TarenaTraining::jst.web::2.5"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Project_BBS-config" deployDir="wtpwebapps" hostname="localhost" id="Project_BBS" name="Project_BBS" runtime-id="Test" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="1">
+    <list key="modules" value0="Project_BBS::org.eclipse.jst.jee.server:Project_BBS::jst.web::3.0"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Project_CMS-config" deployDir="wtpwebapps" hostname="localhost" id="Project_CMS" name="Project_CMS" runtime-id="Test" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="3">
+    <list key="modules" value0="Project_CMS::org.eclipse.jst.jee.server:Project_CMS::jst.web::3.0"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Project_Shop-config" deployDir="wtpwebapps" hostname="localhost" id="Project_Shop" name="Project_Shop" runtime-id="Test" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="1">
+    <list key="modules" value0="Project_Shop::org.eclipse.jst.jee.server:Project_Shop::jst.web::2.5"/>
+  </server>
+</servers>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<publish-info>
+  <server id="Project_Shop" path="publish2.dat"/>
+  <server id="Project_CMS" path="publish4.dat"/>
+  <server id="ClassCaseTest" path="publish1.dat"/>
+  <server id="Project_BBS" path="publish3.dat"/>
+</publish-info>

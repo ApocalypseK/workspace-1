@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:Project_TarenaTraining" serverId="ClassCaseTest"/>
+  <module moduleId="org.eclipse.jst.jee.server:Project_wemall" serverId="Project_wemall"/>
+  <module moduleId="org.eclipse.jst.jee.server:Project_CMS" serverId="Project_CMS"/>
+  <module moduleId="org.eclipse.jst.jee.server:Project_Shop" serverId="Project_Shop"/>
+  <module moduleId="org.eclipse.jst.jee.server:Project_BBS" serverId="Project_BBS"/>
+  <module moduleId="org.eclipse.jst.jee.server:Tarena_ClassCase" serverId="ClassCaseTest"/>
+</modules>
